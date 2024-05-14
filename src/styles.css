@@ -9,8 +9,6 @@
     --text-color: #fdfce6;
 
 
-
-
     --bright-blue: oklch(51.01% 0.274 263.83);
     --electric-violet: oklch(53.18% 0.28 296.97);
     --french-violet: oklch(47.66% 0.246 305.88);
@@ -259,9 +257,12 @@ body {
 
 .card-icon > img {
     border-radius: 5px;
-    border: 3px solid black;
-    width: 3em;
-    height: 3em;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px var(--shadow-dark);
+    width: 3.5em;
+    height: 3.5em;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .card-data {
@@ -269,7 +270,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
     font-weight: bold;
     font-size: large;
     color:var(--text-color);
